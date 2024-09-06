@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Verydarkblue: hsl(233, 47%, 7%);
+  --Darkdesaturatedblue: hsl(244, 38%, 16%);
+  --Softviolet: hsl(277, 64%, 61%);
+}
+
+main {
+  background-color: var(--Verydarkblue);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  border: 1px solid white;
+  width: 80%;
+  height: 70%;
+}
